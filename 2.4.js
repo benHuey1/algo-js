@@ -1,0 +1,11 @@
+let numbers = 0;
+
+for (let i = 0; i < 100; i++) {
+    if (i % 2 === 0) {
+        console.log(numbers / 2);
+    }
+    else {
+        console.log(numbers * 3)
+    }
+    numbers = numbers + 1;
+}
